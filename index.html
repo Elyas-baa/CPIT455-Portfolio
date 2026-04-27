@@ -833,7 +833,10 @@
             <div class="evidence-box">
                 <h4>My Evidence (V2):</h4>
                 <!-- ⚠️ EDIT: Describe your group contribution -->
-                <p class="placeholder">"[Add your reflection on Security/Resilience strategies and Reuse Plan for your project.]"</p>
+                <p>I applied the 4R resilience model to ensure the system continues working during network failures.
+                    I also used secure QR code validation and reused existing libraries like SQLite and cryptographic
+                    tools to improve reliability and security.
+                </p>
             </div>
 
             <div class="instructor-only">
@@ -850,7 +853,9 @@
             <div class="evidence-box">
                 <h4>My Evidence (V2):</h4>
                 <!-- ⚠️ EDIT: Describe your architecture work -->
-                <p class="placeholder">"[Add your System Architecture Design and Component Diagram evidence.]"</p>
+                <p>I helped design a distributed system where components like the mobile app, API, and offline 
+                scanners work independently. This ensures the system remains stable and scalable during high traffic.
+            </p>
             </div>
 
             <div class="instructor-only">
@@ -986,10 +991,10 @@
 
         <h3>📋 Project Evidence</h3>
         <ul>
-            <li><strong>Risk Metric:</strong> <span class="placeholder">[e.g., POFOD + Availability %]</span></li>
-            <li><strong>Architecture Pattern:</strong> <span class="placeholder">[e.g., Redundancy + N-Version]</span></li>
-            <li><strong>Safety Standard:</strong> <span class="placeholder">[e.g., ALARP threshold defined]</span></li>
-            <li><strong>V&amp;V Evidence:</strong> <span class="placeholder">[e.g., 400 test cases + Static Analysis]</span></li>
+            <li><strong>Risk Metric:</strong> <span >POFOD (near-zero) + High Availability using offline cache</span></li>
+            <li><strong>Architecture Pattern:</strong> <span >Distributed system + Offline-first + Local cache (SQLite)</span></li>
+            <li><strong>Safety Standard:</strong> <span >ALARP with strict capacity limits (no over-issuance of permits)</span></li>
+            <li><strong>V&amp;V Evidence:</strong> <span >Tested offline validation + QR verification + network failure scenarios</span></li>
         </ul>
 
         <div style="margin-top: 30px;">
